@@ -6,7 +6,7 @@ import mobile_icon from "./images/illustration-sign-up-mobile.svg";
 function Form({ setcompound }) {
   const width = window.innerWidth;
   return (
-    <section className="Form">
+    <div className="Form">
       <section>
         <h1>Stay updated!</h1>
         <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -29,7 +29,7 @@ function Form({ setcompound }) {
       <figure>
         <img src={width <= 700 ? mobile_icon : destop_image} alt="view-page" />
       </figure>
-    </section>
+    </div>
   );
 }
 

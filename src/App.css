@@ -16,18 +16,19 @@ body {
   border-radius: 30px;
   padding: 18px;
   background-color: var(--White);
-  margin: 60px auto;
-  font-size: 14px;
-  width: 800px;
+  margin: 190px auto;
+  font-size: 15px;
+  width: 850px;
+  /* width: 80vw; */
   overflow: hidden;
   display: flex;
-  transform: scale(0.9);
+  /* transform: scale(1); */
 }
 
 .Form section {
   width: 50%;
   box-sizing: border-box;
-  padding: 50px 20px;
+  padding: 60px 20px;
   margin: 0px 42px 0px 20px;
   overflow: hidden;
 }
@@ -83,7 +84,7 @@ button {
   width: 100%;
   background-color: var(--DarkSlateGrey);
   color: var(--White);
-  border: none;
+  border: unset;
   font-size: 1em;
 }
 
@@ -92,7 +93,6 @@ button:hover {
   background-image: linear-gradient(to right, rgb(255, 6, 43), var(--Tomato));
   box-shadow: 1px 10px 15px 0px rgb(255, 129, 139);
 }
-
 figure {
   width: 45%;
   margin: 0;
@@ -108,10 +108,10 @@ figure img {
 
 .success {
   background-color: var(--White);
-  margin: 120px auto;
-  width: 270px;
-  padding: 35px 50px;
-  font-size: 13px;
+  margin: 200px auto;
+  width: 300px;
+  padding: 38px 54px;
+  font-size: 14px;
   border-radius: 30px;
 }
 
